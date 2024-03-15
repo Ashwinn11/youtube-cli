@@ -1,6 +1,6 @@
-package dev.danvega.youtubecli.service;
+package dev.ashwin.youtubecli.service;
 
-import dev.danvega.youtubecli.model.Video;
+import dev.ashwin.youtubecli.model.Video;
 import org.springframework.shell.table.ArrayTableModel;
 import org.springframework.shell.table.BorderStyle;
 import org.springframework.shell.table.TableBuilder;

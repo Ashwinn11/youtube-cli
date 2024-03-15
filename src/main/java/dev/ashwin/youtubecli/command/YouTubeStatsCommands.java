@@ -1,10 +1,10 @@
-package dev.danvega.youtubecli.command;
+package dev.ashwin.youtubecli.command;
 
-import dev.danvega.youtubecli.model.TeamTabRow;
-import dev.danvega.youtubecli.model.Video;
-import dev.danvega.youtubecli.service.CommandService;
-import dev.danvega.youtubecli.service.ReportService;
-import dev.danvega.youtubecli.service.VideoService;
+import dev.ashwin.youtubecli.service.CommandService;
+import dev.ashwin.youtubecli.service.ReportService;
+import dev.ashwin.youtubecli.model.TeamTabRow;
+import dev.ashwin.youtubecli.model.Video;
+import dev.ashwin.youtubecli.service.VideoService;
 import org.springframework.shell.standard.ShellComponent;
 import org.springframework.shell.standard.ShellMethod;
 import org.springframework.shell.standard.ShellOption;
@@ -41,7 +41,7 @@ public class YouTubeStatsCommands {
     }
 
     @ShellMethod(key = "filter-by-year", value = "Filter videos by year.")
-    public void byYear(@ShellOption(defaultValue = "2023") Integer year) {
+    public void byYear(@ShellOption(defaultValue = "2024") Integer year) {
         List<Video> videos = videoService.findAllByYear(year);
         TableBuilder tableBuilder = commandService.listToArrayTableModel(videos);
         System.out.println(tableBuilder.build().render(120));

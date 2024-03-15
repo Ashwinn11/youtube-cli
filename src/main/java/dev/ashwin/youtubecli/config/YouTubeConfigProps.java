@@ -1,4 +1,4 @@
-package dev.danvega.youtubecli.config;
+package dev.ashwin.youtubecli.config;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 

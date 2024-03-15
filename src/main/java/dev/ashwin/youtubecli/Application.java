@@ -1,6 +1,6 @@
-package dev.danvega.youtubecli;
+package dev.ashwin.youtubecli;
 
-import dev.danvega.youtubecli.config.YouTubeConfigProps;
+import dev.ashwin.youtubecli.config.YouTubeConfigProps;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;

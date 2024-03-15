@@ -1,4 +1,4 @@
-package dev.danvega.youtubecli.model;
+package dev.ashwin.youtubecli.model;
 
 import java.time.LocalDate;
 

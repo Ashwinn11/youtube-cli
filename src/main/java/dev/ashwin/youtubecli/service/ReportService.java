@@ -1,7 +1,7 @@
-package dev.danvega.youtubecli.service;
+package dev.ashwin.youtubecli.service;
 
-import dev.danvega.youtubecli.model.TeamTabRow;
-import dev.danvega.youtubecli.model.Video;
+import dev.ashwin.youtubecli.model.TeamTabRow;
+import dev.ashwin.youtubecli.model.Video;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

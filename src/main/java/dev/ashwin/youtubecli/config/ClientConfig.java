@@ -1,6 +1,6 @@
-package dev.danvega.youtubecli.config;
+package dev.ashwin.youtubecli.config;
 
-import dev.danvega.youtubecli.client.YouTubeDataClient;
+import dev.ashwin.youtubecli.client.YouTubeDataClient;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.reactive.function.client.WebClient;

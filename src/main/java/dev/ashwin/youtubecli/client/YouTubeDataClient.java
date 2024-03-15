@@ -1,7 +1,7 @@
-package dev.danvega.youtubecli.client;
+package dev.ashwin.youtubecli.client;
 
-import dev.danvega.youtubecli.model.SearchListResponse;
-import dev.danvega.youtubecli.model.VideoListResponse;
+import dev.ashwin.youtubecli.model.SearchListResponse;
+import dev.ashwin.youtubecli.model.VideoListResponse;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.service.annotation.GetExchange;
 

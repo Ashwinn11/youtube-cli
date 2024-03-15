@@ -1,11 +1,11 @@
-package dev.danvega.youtubecli.service;
+package dev.ashwin.youtubecli.service;
 
-import dev.danvega.youtubecli.client.YouTubeDataClient;
-import dev.danvega.youtubecli.config.YouTubeConfigProps;
-import dev.danvega.youtubecli.model.SearchListResponse;
-import dev.danvega.youtubecli.model.SearchResult;
-import dev.danvega.youtubecli.model.Video;
-import dev.danvega.youtubecli.model.VideoListResponse;
+import dev.ashwin.youtubecli.config.YouTubeConfigProps;
+import dev.ashwin.youtubecli.client.YouTubeDataClient;
+import dev.ashwin.youtubecli.model.SearchListResponse;
+import dev.ashwin.youtubecli.model.SearchResult;
+import dev.ashwin.youtubecli.model.Video;
+import dev.ashwin.youtubecli.model.VideoListResponse;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
